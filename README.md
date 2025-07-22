@@ -1,96 +1,69 @@
-# Multiplayer Chess Game
+# Chess Web App
 
-A real-time multiplayer chess game built with HTML5, JavaScript, and WebSocket technology.
+A modern chess web app with:
+- **Single-player vs Bot** (Stockfish, in-browser)
+- **Real-time Multiplayer** (WebSocket server backend)
+- **Beautiful, authentic UI**
+- **Mobile and desktop support**
 
 ## Features
+- Play against a strong chess bot (Stockfish) in your browser
+- Play real-time multiplayer games with others online
+- Choose from multiple board and piece styles
+- Responsive, elegant UI for all devices
+- Online player count and rapid time controls in multiplayer
 
-- **Real-time multiplayer gameplay** - Play chess against other players online
-- **Room-based matchmaking** - Create or join rooms with unique codes
-- **Live chat** - Communicate with your opponent during the game
-- **Move validation** - Server-side chess move validation using chess.js
-- **Game state synchronization** - Real-time board updates across all players
-- **Responsive design** - Works on desktop and mobile devices
+## Project Structure
 
-## Setup Instructions
+- `simple-chess.html` — Single-player chess vs bot (works on GitHub Pages or any static host)
+- `Multi-chess.html` — Multiplayer chess UI (connects to backend WebSocket server)
+- `server.js` — Node.js WebSocket server for multiplayer (deploy to Render, Railway, etc.)
+- `stockfish.js` — Stockfish chess engine for browser bot
+- `Boards/`, `Glothic style/`, etc. — Board and piece assets
 
-### Prerequisites
-- Node.js (version 14 or higher)
-- npm (comes with Node.js)
+## How to Run (Local Development)
 
-### Installation
-
-1. **Install server dependencies:**
+1. **Install Node.js** (https://nodejs.org/)
+2. **Install dependencies for multiplayer server:**
    ```bash
    npm install
    ```
-
-2. **Start the WebSocket server:**
+3. **Start the WebSocket server:**
    ```bash
-   npm start
+   node server.js
    ```
-   The server will run on `http://localhost:3000`
+4. **Serve the frontend (for bot and multiplayer):**
+   ```bash
+   python -m http.server 8000
+   ```
+5. **Open in your browser:**
+   - Single player: [http://localhost:8000/simple-chess.html](http://localhost:8000/simple-chess.html)
+   - Multiplayer: [http://localhost:8000/Multi-chess.html](http://localhost:8000/Multi-chess.html)
 
-3. **Open the game:**
-   - Open `Multi-chess.html` in your web browser
-   - Or serve it using a local web server
+## How to Deploy
 
-### How to Play
+### Single Player (Bot)
+- Upload all frontend files (including `stockfish.js`) to GitHub Pages or any static host.
+- Users can play against the bot directly from your site.
 
-1. **Join a Game:**
-   - Enter your name
-   - Leave the room code empty to create a new game
-   - Or enter an existing room code to join a friend's game
+### Multiplayer
+- Deploy `server.js` and `package.json` to a Node.js host (e.g., Render, Railway).
+- Update the WebSocket URL in `Multi-chess.html` to your deployed backend (e.g., `wss://your-app.onrender.com`).
+- Upload your frontend to GitHub Pages or any static host.
+- Multiplayer users will connect to your backend for real-time play and online player count.
 
-2. **Share Room Code:**
-   - After creating a room, share the room code with your friend
-   - They can join by entering the same room code
+## Main Menu Flow
+- **Single Player:** Choose bot difficulty, board/piece style, and play instantly.
+- **Multiplayer:**
+  1. Choose a time control (10, 15, 30 min)
+  2. See the number of players online
+  3. Click Play to join/create a game (enter your name and optional room code)
+  4. Play real-time chess with others
 
-3. **Play Chess:**
-   - Click on a piece to select it
-   - Click on a valid square to move
-   - Chat with your opponent using the chat box
-   - The game automatically detects checkmate, stalemate, and other end conditions
-
-## Game Rules
-
-- Standard chess rules apply
-- White always moves first
-- Automatic detection of:
-  - Checkmate
-  - Stalemate
-  - Threefold repetition
-  - Insufficient material
-
-## Technical Details
-
-- **Frontend:** HTML5, CSS3, JavaScript (ES6+)
-- **Backend:** Node.js with WebSocket server
-- **Chess Engine:** chess.js library for move validation
-- **Real-time Communication:** WebSocket protocol
-
-## Development
-
-To run in development mode with auto-restart:
-```bash
-npm run dev
-```
-
-## File Structure
-
-```
-├── Multi-chess.html    # Main game interface
-├── server.js           # WebSocket server
-├── package.json        # Node.js dependencies
-├── simple-chess.html   # Original single-player version
-└── README.md          # This file
-```
-
-## Troubleshooting
-
-- **Connection issues:** Make sure the server is running on port 3000
-- **Room not found:** Check that the room code is correct
-- **Game not starting:** Ensure both players have joined the same room
+## Notes
+- Do **not** commit `node_modules` to your repo. Use `npm install` to install dependencies.
+- The multiplayer server must be running for online play to work.
+- For production, use a secure WebSocket URL (`wss://`).
 
 ## License
-
-MIT License - feel free to modify and distribute! 
+MIT 
