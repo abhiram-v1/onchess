@@ -1,0 +1,27 @@
+# Chess Board Themes
+
+1. **Classic Wood** - Light: Boards/Classic_wood_Wtile.svg, Dark: Boards/Classic_wood_Btile.svg
+   - Classic wood grain texture
+
+2. **Redwood** - Light: #fbeee6, Dark: #a94438
+   - Warm reddish wood colors
+
+3. **Ebony Wood** - Light: #e0dede, Dark: #222222
+   - High contrast, dark ebony style
+
+4. **Golden Oak** - Light: #fff8dc, Dark: #c19a6b
+   - Golden oak color scheme
+
+5. **Forest Green Wood** - Light: #e8f5e9, Dark: #388e3c
+   - Green forest-inspired colors
+
+6. **Royal Blue Wood** - Light: #e3f2fd, Dark: #1565c0
+   - Blue royal color scheme
+
+## Usage Instructions:
+- Each theme includes a name and two color codes or texture files (Light and Dark squares)
+- Light color/texture is for light squares (traditionally white)
+- Dark color/texture is for dark squares (traditionally black)
+- Colors are in hexadecimal format (#RRGGBB) or SVG file path
+- Themes are categorized for easy selection
+- All themes maintain good contrast for visibility

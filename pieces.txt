@@ -1,0 +1,143 @@
+# Chess Piece Styles Collection
+
+## 1. Glothic Style Chess Piece Set
+**Description**: Gothic-inspired chess pieces with dark, ornate design
+**Source**: Local Glothic style folder
+**Style**: Gothic, dark, ornate design
+
+### White Pieces (Uppercase)
+```
+K: Glothic style/g_Wking.svg
+Q: Glothic style/g_Wqueen.svg
+R: Glothic style/g_Wrook.svg
+B: Glothic style/g_Wbishop.svg
+N: Glothic style/g_Wknight.svg
+P: Glothic style/g_Wpawn.svg
+```
+
+### Black Pieces (Lowercase)
+```
+k: Glothic style/g_Bking.svg
+q: Glothic style/g_Bqueen.svg
+r: Glothic style/g_Brook.svg
+b: Glothic style/g_Bbishop.svg
+n: Glothic style/g_Bknight.svg
+p: Glothic style/g_Bpawn.svg
+```
+
+## 2. Standard Tournament (CBurnett) Style
+**Description**: Classic tournament chess pieces used by Lichess
+**Source**: Lichess GitHub repository
+**Style**: Traditional, clean, tournament standard
+
+### White Pieces (Uppercase)
+```
+K: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/cburnett/wK.svg
+Q: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/cburnett/wQ.svg
+R: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/cburnett/wR.svg
+B: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/cburnett/wB.svg
+N: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/cburnett/wN.svg
+P: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/cburnett/wP.svg
+```
+
+### Black Pieces (Lowercase)
+```
+k: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/cburnett/bK.svg
+q: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/cburnett/bQ.svg
+r: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/cburnett/bR.svg
+b: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/cburnett/bB.svg
+n: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/cburnett/bN.svg
+p: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/cburnett/bP.svg
+```
+
+## 3. Alpha (Modern) Style
+**Description**: Modern, minimalist chess pieces with clean lines
+**Source**: Lichess GitHub repository
+**Style**: Contemporary, sleek, modern design
+
+### White Pieces (Uppercase)
+```
+K: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/alpha/wK.svg
+Q: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/alpha/wQ.svg
+R: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/alpha/wR.svg
+B: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/alpha/wB.svg
+N: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/alpha/wN.svg
+P: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/alpha/wP.svg
+```
+
+### Black Pieces (Lowercase)
+```
+k: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/alpha/bK.svg
+q: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/alpha/bQ.svg
+r: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/alpha/bR.svg
+b: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/alpha/bB.svg
+n: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/alpha/bN.svg
+p: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/alpha/bP.svg
+```
+
+## 4. Leipzig (Classic) Style
+**Description**: Traditional Leipzig tournament pieces with elegant curves
+**Source**: Lichess GitHub repository
+**Style**: Classic, elegant, traditional tournament
+
+### White Pieces (Uppercase)
+```
+K: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/leipzig/wK.svg
+Q: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/leipzig/wQ.svg
+R: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/leipzig/wR.svg
+B: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/leipzig/wB.svg
+N: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/leipzig/wN.svg
+P: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/leipzig/wP.svg
+```
+
+### Black Pieces (Lowercase)
+```
+k: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/leipzig/bK.svg
+q: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/leipzig/bQ.svg
+r: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/leipzig/bR.svg
+b: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/leipzig/bB.svg
+n: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/leipzig/bN.svg
+p: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/leipzig/bP.svg
+```
+
+## 5. Condal (Elegant) Style
+**Description**: Elegant chess pieces with refined proportions
+**Source**: Lichess GitHub repository
+**Style**: Refined, elegant, sophisticated design
+
+### White Pieces (Uppercase)
+```
+K: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/condal/wK.svg
+Q: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/condal/wQ.svg
+R: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/condal/wR.svg
+B: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/condal/wB.svg
+N: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/condal/wN.svg
+P: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/condal/wP.svg
+```
+
+### Black Pieces (Lowercase)
+```
+k: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/condal/bK.svg
+q: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/condal/bQ.svg
+r: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/condal/bR.svg
+b: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/condal/bB.svg
+n: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/condal/bN.svg
+p: https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/condal/bP.svg
+```
+
+## Usage Instructions:
+- All pieces are in SVG format for crisp scaling
+- White pieces are uppercase (K, Q, R, B, N, P)
+- Black pieces are lowercase (k, q, r, b, n, p)
+- Glothic pieces are local files, others are from Lichess repository
+- Each style maintains clear distinction and recognition
+- Perfect for different board themes and preferences
+
+## Integration Notes:
+- Glothic style uses local paths from Glothic style folder
+- Other styles use reliable Lichess GitHub URLs
+- Test piece visibility on different board themes
+- Consider piece contrast with board colors
+- Maintain consistent sizing across all pieces
+- Verify piece recognition for accessibility
+- All external URLs are from trusted open-source repositories 
