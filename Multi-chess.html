@@ -123,7 +123,7 @@
       document.getElementById('online-info').style.display = 'block';
       // Connect to WS for online count if not already
       if (!wsForCount) {
-        wsForCount = new WebSocket('wss://onchess-online.onrender.com');
+        wsForCount = new WebSocket('https://onchess-online.onrender.com/');
         wsForCount.onmessage = function(event) {
           try {
             const data = JSON.parse(event.data);
